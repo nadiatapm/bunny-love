@@ -1,0 +1,174 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+img{
+	width:100%;
+}
+/*fondo verde agua */
+body{
+	background-color:#ECF7FB;
+	margin:0 auto; 
+}
+/*titulo + menu*/
+header{
+	background-color:#2C818B;
+}
+/*menu responsive hambueger*/ 
+.responsive{
+   display: none;
+}
+.titulo{
+	font-family:'Baloo Paaji', cursive;
+	margin-left:15%;
+	color:white;
+}
+h1 span{
+	color:#FF7673;
+}
+nav ul li {
+	list-style:none;
+	display:inline-block;
+	margin-left:7%;
+	margin-top:3%;
+	font-size:14px;
+}
+.menu{
+	text-decoration:none;
+	color:#E2D8D8;
+	font-size:12px;
+}
+
+.verde{
+	background:url(../img/img-1.jpg)no-repeat;
+	background-size:cover;
+	height:410px;
+	margin-left:15%;
+	margin-right:15%;
+}
+/*foto fondo +cuadro transparecia +titulo/parrafo*/
+.cuadro{
+    margin-left:13%;
+    margin-top:10%;
+	color: #2C818B;
+	background-color:rgba(55, 125, 149, 0.7);
+	font-family:'Baloo Paaji', cursive;
+	height: 250px;
+	
+}
+.cuadro p{
+	color:#E2D8D8;
+	text-align:center;
+}
+
+.soft{
+	text-align:center;
+	margin-top:6%; 
+	font-size:60px;
+	color:#FF7673; 
+}
+/*fondo bco + 3fotos/parrafos y titulo +video*/
+.blanco{
+	background-color:white;
+	margin-left:15%;
+	margin-right:15%;
+	padding:1%;
+}
+
+.box{
+	background:#2C818B;
+	border:10px solid white;
+	height:450px;
+	padding:0;
+}
+.tt{
+	color:#FF7673; 
+	text-align:center;
+	font-family:'Baloo Paaji', cursive;
+	
+}
+
+.pa{
+	color:white;
+	font-family: 'Prompt';
+	text-align:center;
+	
+}
+.blue{
+	background-color:#2C818B;
+	margin-left:15%;
+	margin-right:15%;
+	padding:3%;	
+}
+
+.dos{
+	background-color:#ECF7FB;
+	border:10px solid #2C818B;
+}
+
+/*boton busqueda*/
+form{
+	background-color:#ECF7FB;
+	border-radius:5px;
+	margin-left:1%;
+	margin-bottom:2%;
+	padding:6%;
+}
+
+input{
+	border-radius:5%;
+	margin-top:4%;
+	margin-left:4%;
+	padding:3%;
+}
+.tale{
+	color:#000000;
+	font-family: 'Prompt';
+	padding:2%;
+}
+/*iconos*/
+.icon a{
+	font-size:20px;
+	color:#2C818B;
+	text-align:center;
+	margin-left:10%; 
+}
+.icon{
+	padding:5% 0%;
+}	
+
+.logo{
+	background-color:white;
+	border-radius: 60px;
+	width: 38px;
+	height: 38px;
+}
+.fa-instagram{
+	padding-top:2%;
+}
+.fa-facebook-official{
+	padding-top:2%;
+}
+.fa-twitter{
+	padding-top:2%;
+}
+.fa-youtube{
+	padding-top:2%;
+}
+/*logo cabeza de conejo*/
+.head{
+	background-image:url(../img/bunny-head.png);
+	background-size:200px;
+	height:100px;
+}
+/*footer*/
+footer{
+	background-color:#2C818B;
+	border-top:3px solid #FF7673;
+	padding:2%;
+}
+
+
+
